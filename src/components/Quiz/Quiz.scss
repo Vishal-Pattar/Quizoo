@@ -45,7 +45,7 @@
         }
 
         .selected-answer {
-            background: $primary;
+            background: $foreground;
             color: $bg;
             border: 1px solid $accent;
         }
@@ -57,7 +57,7 @@
     }
 
     button {
-        background: linear-gradient(0deg, $primary 0.03%, $accent);
+        background: $foreground;
         border-radius: 9px;
         font-size: 18px;
         color: $bg;

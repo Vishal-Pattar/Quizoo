@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { resultInitialState } from "../../constants";
+import { resultInitialState } from "../../initialstate";
 import "./Quiz.scss";
-
 
 const Quiz = ({ questions }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -45,11 +44,9 @@ const Quiz = ({ questions }) => {
             setCurrentQuestion(0);
             setShowResult(true);
         }
-
-
     };
 
-    const onTryAgain = () =>{
+    const onTryAgain = () => {
         setResult(resultInitialState);
         setShowResult(false);
     }
