@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { resultInitialState } from "./constants";
+import { resultInitialState } from "../../constants";
+import "./Quiz.scss";
 
 
 const Quiz = ({ questions }) => {
