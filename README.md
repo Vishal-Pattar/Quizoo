@@ -9,6 +9,10 @@ Quizoo is a web-based quiz application built with modern web technologies. It al
 - **Score Tracking**: Track your quiz performance over time.
 - **Responsive Design**: Accessible on both desktop and mobile devices.
 
+## Screenshots
+
+![image](https://github.com/Vishal-Pattar/Quizoo/assets/104265753/66bad8fe-63fd-4796-abaf-5e0a6a25e10a)
+
 ## Technologies Used
 
 - **JavaScript**
