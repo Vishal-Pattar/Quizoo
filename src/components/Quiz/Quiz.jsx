@@ -2,7 +2,7 @@ import { useState } from "react";
 import { resultInitialState } from "../../initialstate";
 import "./Quiz.scss";
 
-const Quiz = ({ questions }) => {
+const Quiz = ({ questions, resetQuiz }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answerIdx, setAnswerIdx] = useState(null);
     const [answer, setAnswer] = useState(null);
@@ -17,8 +17,7 @@ const Quiz = ({ questions }) => {
         setAnswerIdx(index);
         if (answer === correctAnswer) {
             setAnswer(true);
-        }
-        else {
+        } else {
             setAnswer(false);
         }
     };
@@ -39,19 +38,21 @@ const Quiz = ({ questions }) => {
 
         if (currentQuestion !== questions.length - 1) {
             setCurrentQuestion((prev) => prev + 1);
-        }
-        else {
+        } else {
             setCurrentQuestion(0);
             setShowResult(true);
         }
     };
 
-    const onTryAgain = () => {
+    const onRetry = () => {
         setResult(resultInitialState);
         setShowResult(false);
-    }
+    };
 
-
+    const onTryAgain = () => {
+        onRetry();
+        resetQuiz(); // Call resetQuiz to go back to the main page
+    };
 
     return (
         <div className="quiz-container">
@@ -77,22 +78,26 @@ const Quiz = ({ questions }) => {
                         </button>
                     </div>
                 </>
-            ) : <div className="result">
-                <h3>Result</h3>
-                <p>
-                    Total Questions: <span>{questions.length}</span>
-                </p>
-                <p>
-                    Total Score: <span>{result.score}</span>
-                </p>
-                <p>
-                    Correct Answers: <span>{result.correctAnswer}</span>
-                </p>
-                <p>
-                    Wrong Answers: <span>{result.wrongAnswer}</span>
-                </p>
-                <button onClick={onTryAgain}>Try again</button>
-            </div>}
+            ) : (
+                <div className="result">
+                    <h3>Result</h3>
+                    <p>
+                        Total Questions: <span>{questions.length}</span>
+                    </p>
+                    <p>
+                        Total Score: <span>{result.score}</span>
+                    </p>
+                    <p>
+                        Correct Answers: <span>{result.correctAnswer}</span>
+                    </p>
+                    <p>
+                        Wrong Answers: <span>{result.wrongAnswer}</span>
+                    </p>
+                    
+                    <button onClick={onRetry}>Retry</button>
+                    <button onClick={onTryAgain}>Main Menu</button>
+                </div>
+            )}
         </div>
     );
 };

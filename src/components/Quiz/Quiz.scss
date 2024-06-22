@@ -61,7 +61,7 @@
         border-radius: 9px;
         font-size: 18px;
         color: $bg;
-        padding: 10px 42px;
+        padding: 10px 28px;
         outline: none;
         border: none;
         margin-top: 15px;
@@ -91,6 +91,10 @@
                 color: $primary;
                 font-size: 22px;
             }
+        }
+
+        button {
+            margin: 15px;
         }
     }
 }

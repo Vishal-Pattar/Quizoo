@@ -1,8 +1,7 @@
 export const gkQuiz = {
     questions: [
         {
-            question:
-                "What is the capital city of Australia?",
+            question: "What is the capital city of Australia?",
             choices: ["Sydney", "Melbourne", "Canberra", "Perth"],
             type: "MCQs",
             correctAnswer: "Canberra",
@@ -14,8 +13,7 @@ export const gkQuiz = {
             correctAnswer: "Mars",
         },
         {
-            question:
-                "In which year did the Titanic sink?",
+            question: "In which year did the Titanic sink?",
             choices: ["1912", "1920", "1905", "1931"],
             type: "MCQs",
             correctAnswer: "1912",
