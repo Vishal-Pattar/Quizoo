@@ -1,8 +1,13 @@
 import { useState } from "react";
-import { resultInitialState } from "../../initialstate";
 import "./Quiz.scss";
 
 const Quiz = ({ questions, title, resetQuiz }) => {
+    const resultInitialState = {
+        score: 0,
+        correctAnswer: 0,
+        wrongAnswer: 0,
+    };
+    
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answerIdx, setAnswerIdx] = useState(null);
     const [answer, setAnswer] = useState(null);
