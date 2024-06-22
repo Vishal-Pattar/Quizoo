@@ -27,3 +27,4 @@ dist-ssr
 src/GeneralKnowledge.js
 src/QuizTemplate.js
 src/Questions.js
+src/initialstate.js
