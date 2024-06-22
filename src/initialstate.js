@@ -3,7 +3,3 @@ export const resultInitialState = {
     correctAnswer: 0,
     wrongAnswer: 0,
 };
-
-export const QuizType = {
-    type: "",
-}

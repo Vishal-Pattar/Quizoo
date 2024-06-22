@@ -805,5 +805,253 @@ export const Questions =
             type: "MCQs",
             correctAnswer: "Parliament"
         }
+    ],
+    alpha: [
+        {
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            choices: ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+            type: "MCQs",
+            correctAnswer: "Margaret Thatcher"
+        },
+        {
+            question: "What is the supreme law of the United States?",
+            choices: ["The Declaration of Independence", "The Constitution", "The Bill of Rights", "The Federalist Papers"],
+            type: "MCQs",
+            correctAnswer: "The Constitution"
+        },
+        {
+            question: "Who is known as the 'Father of the Nation' in India?",
+            choices: ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Subhas Chandra Bose"],
+            type: "MCQs",
+            correctAnswer: "Mahatma Gandhi"
+        },
+        {
+            question: "Which political ideology advocates for a classless society?",
+            choices: ["Capitalism", "Communism", "Socialism", "Liberalism"],
+            type: "MCQs",
+            correctAnswer: "Communism"
+        },
+        {
+            question: "Which U.S. president issued the Emancipation Proclamation?",
+            choices: ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Andrew Jackson"],
+            type: "MCQs",
+            correctAnswer: "Abraham Lincoln"
+        },
+        {
+            question: "What is the largest political party in China?",
+            choices: ["Kuomintang", "Chinese Communist Party", "Democratic Progressive Party", "People First Party"],
+            type: "MCQs",
+            correctAnswer: "Chinese Communist Party"
+        },
+        {
+            question: "Who was the leader of the Soviet Union during World War II?",
+            choices: ["Vladimir Lenin", "Nikita Khrushchev", "Joseph Stalin", "Mikhail Gorbachev"],
+            type: "MCQs",
+            correctAnswer: "Joseph Stalin"
+        },
+        {
+            question: "Which U.S. president was involved in the Watergate scandal?",
+            choices: ["Lyndon B. Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter"],
+            type: "MCQs",
+            correctAnswer: "Richard Nixon"
+        },
+        {
+            question: "Which international organization is headquartered in New York City?",
+            choices: ["World Bank", "International Monetary Fund", "United Nations", "World Health Organization"],
+            type: "MCQs",
+            correctAnswer: "United Nations"
+        },
+        {
+            question: "What is the legislative body of the United Kingdom called?",
+            choices: ["Congress", "Parliament", "Diet", "National Assembly"],
+            type: "MCQs",
+            correctAnswer: "Parliament"
+        }
+    ],
+    beta: [
+        {
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            choices: ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+            type: "MCQs",
+            correctAnswer: "Margaret Thatcher"
+        },
+        {
+            question: "What is the supreme law of the United States?",
+            choices: ["The Declaration of Independence", "The Constitution", "The Bill of Rights", "The Federalist Papers"],
+            type: "MCQs",
+            correctAnswer: "The Constitution"
+        },
+        {
+            question: "Who is known as the 'Father of the Nation' in India?",
+            choices: ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Subhas Chandra Bose"],
+            type: "MCQs",
+            correctAnswer: "Mahatma Gandhi"
+        },
+        {
+            question: "Which political ideology advocates for a classless society?",
+            choices: ["Capitalism", "Communism", "Socialism", "Liberalism"],
+            type: "MCQs",
+            correctAnswer: "Communism"
+        },
+        {
+            question: "Which U.S. president issued the Emancipation Proclamation?",
+            choices: ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Andrew Jackson"],
+            type: "MCQs",
+            correctAnswer: "Abraham Lincoln"
+        },
+        {
+            question: "What is the largest political party in China?",
+            choices: ["Kuomintang", "Chinese Communist Party", "Democratic Progressive Party", "People First Party"],
+            type: "MCQs",
+            correctAnswer: "Chinese Communist Party"
+        },
+        {
+            question: "Who was the leader of the Soviet Union during World War II?",
+            choices: ["Vladimir Lenin", "Nikita Khrushchev", "Joseph Stalin", "Mikhail Gorbachev"],
+            type: "MCQs",
+            correctAnswer: "Joseph Stalin"
+        },
+        {
+            question: "Which U.S. president was involved in the Watergate scandal?",
+            choices: ["Lyndon B. Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter"],
+            type: "MCQs",
+            correctAnswer: "Richard Nixon"
+        },
+        {
+            question: "Which international organization is headquartered in New York City?",
+            choices: ["World Bank", "International Monetary Fund", "United Nations", "World Health Organization"],
+            type: "MCQs",
+            correctAnswer: "United Nations"
+        },
+        {
+            question: "What is the legislative body of the United Kingdom called?",
+            choices: ["Congress", "Parliament", "Diet", "National Assembly"],
+            type: "MCQs",
+            correctAnswer: "Parliament"
+        }
+    ],
+    charlie: [
+        {
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            choices: ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+            type: "MCQs",
+            correctAnswer: "Margaret Thatcher"
+        },
+        {
+            question: "What is the supreme law of the United States?",
+            choices: ["The Declaration of Independence", "The Constitution", "The Bill of Rights", "The Federalist Papers"],
+            type: "MCQs",
+            correctAnswer: "The Constitution"
+        },
+        {
+            question: "Who is known as the 'Father of the Nation' in India?",
+            choices: ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Subhas Chandra Bose"],
+            type: "MCQs",
+            correctAnswer: "Mahatma Gandhi"
+        },
+        {
+            question: "Which political ideology advocates for a classless society?",
+            choices: ["Capitalism", "Communism", "Socialism", "Liberalism"],
+            type: "MCQs",
+            correctAnswer: "Communism"
+        },
+        {
+            question: "Which U.S. president issued the Emancipation Proclamation?",
+            choices: ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Andrew Jackson"],
+            type: "MCQs",
+            correctAnswer: "Abraham Lincoln"
+        },
+        {
+            question: "What is the largest political party in China?",
+            choices: ["Kuomintang", "Chinese Communist Party", "Democratic Progressive Party", "People First Party"],
+            type: "MCQs",
+            correctAnswer: "Chinese Communist Party"
+        },
+        {
+            question: "Who was the leader of the Soviet Union during World War II?",
+            choices: ["Vladimir Lenin", "Nikita Khrushchev", "Joseph Stalin", "Mikhail Gorbachev"],
+            type: "MCQs",
+            correctAnswer: "Joseph Stalin"
+        },
+        {
+            question: "Which U.S. president was involved in the Watergate scandal?",
+            choices: ["Lyndon B. Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter"],
+            type: "MCQs",
+            correctAnswer: "Richard Nixon"
+        },
+        {
+            question: "Which international organization is headquartered in New York City?",
+            choices: ["World Bank", "International Monetary Fund", "United Nations", "World Health Organization"],
+            type: "MCQs",
+            correctAnswer: "United Nations"
+        },
+        {
+            question: "What is the legislative body of the United Kingdom called?",
+            choices: ["Congress", "Parliament", "Diet", "National Assembly"],
+            type: "MCQs",
+            correctAnswer: "Parliament"
+        }
+    ],
+    delta: [
+        {
+            question: "Who was the first female Prime Minister of the United Kingdom?",
+            choices: ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+            type: "MCQs",
+            correctAnswer: "Margaret Thatcher"
+        },
+        {
+            question: "What is the supreme law of the United States?",
+            choices: ["The Declaration of Independence", "The Constitution", "The Bill of Rights", "The Federalist Papers"],
+            type: "MCQs",
+            correctAnswer: "The Constitution"
+        },
+        {
+            question: "Who is known as the 'Father of the Nation' in India?",
+            choices: ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Subhas Chandra Bose"],
+            type: "MCQs",
+            correctAnswer: "Mahatma Gandhi"
+        },
+        {
+            question: "Which political ideology advocates for a classless society?",
+            choices: ["Capitalism", "Communism", "Socialism", "Liberalism"],
+            type: "MCQs",
+            correctAnswer: "Communism"
+        },
+        {
+            question: "Which U.S. president issued the Emancipation Proclamation?",
+            choices: ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "Andrew Jackson"],
+            type: "MCQs",
+            correctAnswer: "Abraham Lincoln"
+        },
+        {
+            question: "What is the largest political party in China?",
+            choices: ["Kuomintang", "Chinese Communist Party", "Democratic Progressive Party", "People First Party"],
+            type: "MCQs",
+            correctAnswer: "Chinese Communist Party"
+        },
+        {
+            question: "Who was the leader of the Soviet Union during World War II?",
+            choices: ["Vladimir Lenin", "Nikita Khrushchev", "Joseph Stalin", "Mikhail Gorbachev"],
+            type: "MCQs",
+            correctAnswer: "Joseph Stalin"
+        },
+        {
+            question: "Which U.S. president was involved in the Watergate scandal?",
+            choices: ["Lyndon B. Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter"],
+            type: "MCQs",
+            correctAnswer: "Richard Nixon"
+        },
+        {
+            question: "Which international organization is headquartered in New York City?",
+            choices: ["World Bank", "International Monetary Fund", "United Nations", "World Health Organization"],
+            type: "MCQs",
+            correctAnswer: "United Nations"
+        },
+        {
+            question: "What is the legislative body of the United Kingdom called?",
+            choices: ["Congress", "Parliament", "Diet", "National Assembly"],
+            type: "MCQs",
+            correctAnswer: "Parliament"
+        }
     ]
 };

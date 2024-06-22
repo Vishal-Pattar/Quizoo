@@ -8,6 +8,12 @@
     padding: 30px 60px;
     box-sizing: border-box;
 
+    .category-title {
+        font-size: 10px;
+        font-weight: 500;
+        color: $foreground;
+    }
+
     .active-question-no {
         font-size: 32px;
         font-weight: 500;
@@ -61,7 +67,7 @@
         border-radius: 9px;
         font-size: 18px;
         color: $bg;
-        padding: 10px 28px;
+        padding: 10px 42px;
         outline: none;
         border: none;
         margin-top: 15px;
@@ -95,6 +101,7 @@
 
         button {
             margin: 15px;
+            padding: 10px 28px;
         }
     }
 }

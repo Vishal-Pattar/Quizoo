@@ -2,7 +2,7 @@ import { useState } from "react";
 import { resultInitialState } from "../../initialstate";
 import "./Quiz.scss";
 
-const Quiz = ({ questions, resetQuiz }) => {
+const Quiz = ({ questions, title, resetQuiz }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answerIdx, setAnswerIdx] = useState(null);
     const [answer, setAnswer] = useState(null);
@@ -51,13 +51,14 @@ const Quiz = ({ questions, resetQuiz }) => {
 
     const onTryAgain = () => {
         onRetry();
-        resetQuiz(); // Call resetQuiz to go back to the main page
+        resetQuiz();
     };
 
     return (
         <div className="quiz-container">
             {!showResult ? (
                 <>
+                    <span className="category-title">{title}</span><br/>
                     <span className="active-question-no">{currentQuestion + 1}</span>
                     <span className="total-question">/{questions.length}</span>
                     <h2>{question}</h2>
