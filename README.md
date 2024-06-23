@@ -67,18 +67,39 @@ Check out the live app: [Quizoo on Netlify](https://melodious-llama-9b6b16.netli
 
 ```
 Quizoo/
-├── public/           # Static files
-├── src/              # Source files
-│   ├── assets/       # Images, fonts, etc.
-│   ├── components/   # React components
-│   ├── styles/       # SCSS stylesheets
-│   └── App.js        # Main React component
-├── .eslintrc.cjs     # ESLint configuration
-├── .gitignore        # Git ignore file
-├── index.html        # Main HTML file
-├── package.json      # NPM package file
-├── vite.config.js    # Vite configuration
-└── README.md         # Project documentation
+├── public/
+│   ├── vite.svg
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── fonts/
+│   │   │   ├── ABeeZee-Italic.woff2
+│   │   │   ├── ABeeZee-Regular.woff2
+│   │   │   └── Roboto-Regular.woff2
+│   │   ├── images/
+│   │   │   ├── banner.jpg
+│   │   │   └── logo.png
+│   ├── components/
+│   │   ├── App.jsx
+│   │   ├── Quiz.jsx
+│   │   ├── Question.jsx
+│   │   └── Result.jsx
+│   ├── styles/
+│   │   ├── _variables.scss
+│   │   ├── main.scss
+│   │   └── components.scss
+│   ├── App.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── vite-env.d.ts
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── README.md
+└── vite.config.js
 ```
 
 ## Contributing
