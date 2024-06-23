@@ -805,5 +805,191 @@ export const Questions =
             type: "MCQs",
             correctAnswer: "Parliament"
         }
-    ]
+    ],
+    food: [
+        {
+            question: "What is the main ingredient in guacamole?",
+            choices: ["Tomato", "Avocado", "Pepper", "Onion"],
+            type: "MCQs",
+            correctAnswer: "Avocado"
+        },
+        {
+            question: "Which country is famous for the dish sushi?",
+            choices: ["China", "Thailand", "Japan", "Korea"],
+            type: "MCQs",
+            correctAnswer: "Japan"
+        },
+        {
+            question: "What type of pasta is shaped like little ears?",
+            choices: ["Fusilli", "Orecchiette", "Penne", "Spaghetti"],
+            type: "MCQs",
+            correctAnswer: "Orecchiette"
+        },
+        {
+            question: "Which spice is known as the most expensive in the world?",
+            choices: ["Saffron", "Vanilla", "Cinnamon", "Cardamom"],
+            type: "MCQs",
+            correctAnswer: "Saffron"
+        },
+        {
+            question: "What is the main ingredient in traditional hummus?",
+            choices: ["Lentils", "Chickpeas", "Black beans", "Green peas"],
+            type: "MCQs",
+            correctAnswer: "Chickpeas"
+        },
+        {
+            question: "Which fruit is known as the 'king of fruits'?",
+            choices: ["Mango", "Apple", "Banana", "Grapes"],
+            type: "MCQs",
+            correctAnswer: "Mango"
+        },
+        {
+            question: "Which Italian city is famous for its pizza?",
+            choices: ["Rome", "Florence", "Naples", "Venice"],
+            type: "MCQs",
+            correctAnswer: "Naples"
+        },
+        {
+            question: "What is tofu made from?",
+            choices: ["Wheat", "Rice", "Soybeans", "Corn"],
+            type: "MCQs",
+            correctAnswer: "Soybeans"
+        },
+        {
+            question: "What is the main ingredient in a traditional moussaka?",
+            choices: ["Potato", "Eggplant", "Zucchini", "Carrot"],
+            type: "MCQs",
+            correctAnswer: "Eggplant"
+        },
+        {
+            question: "Which country is the largest producer of coffee?",
+            choices: ["Colombia", "Vietnam", "Brazil", "Ethiopia"],
+            type: "MCQs",
+            correctAnswer: "Brazil"
+        }
+    ],
+    movies: [
+        {
+            question: "Which movie features the song 'My Heart Will Go On'?",
+            choices: ["Titanic", "The Bodyguard", "Moulin Rouge!", "Pretty Woman"],
+            type: "MCQs",
+            correctAnswer: "Titanic"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            choices: ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Martin Scorsese"],
+            type: "MCQs",
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Which actor played the character of Jack Sparrow in 'Pirates of the Caribbean'?",
+            choices: ["Leonardo DiCaprio", "Johnny Depp", "Brad Pitt", "Tom Cruise"],
+            type: "MCQs",
+            correctAnswer: "Johnny Depp"
+        },
+        {
+            question: "In which movie did Tom Hanks play a character stranded on a deserted island?",
+            choices: ["Cast Away", "Forrest Gump", "Saving Private Ryan", "Big"],
+            type: "MCQs",
+            correctAnswer: "Cast Away"
+        },
+        {
+            question: "What is the highest-grossing movie of all time (as of 2023)?",
+            choices: ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: The Force Awakens"],
+            type: "MCQs",
+            correctAnswer: "Avatar"
+        },
+        {
+            question: "Who played the character of Hermione Granger in the 'Harry Potter' series?",
+            choices: ["Emma Watson", "Natalie Portman", "Keira Knightley", "Emma Stone"],
+            type: "MCQs",
+            correctAnswer: "Emma Watson"
+        },
+        {
+            question: "Which movie won the Academy Award for Best Picture in 2020?",
+            choices: ["1917", "Joker", "Parasite", "Ford v Ferrari"],
+            type: "MCQs",
+            correctAnswer: "Parasite"
+        },
+        {
+            question: "What is the name of the fictional African country in 'Black Panther'?",
+            choices: ["Wakanda", "Zamunda", "Genovia", "Narnia"],
+            type: "MCQs",
+            correctAnswer: "Wakanda"
+        },
+        {
+            question: "Who starred as the titular character in the movie 'Wonder Woman'?",
+            choices: ["Gal Gadot", "Scarlett Johansson", "Charlize Theron", "Margot Robbie"],
+            type: "MCQs",
+            correctAnswer: "Gal Gadot"
+        },
+        {
+            question: "Which film features the famous line, 'You can't handle the truth!'?",
+            choices: ["A Few Good Men", "The Godfather", "Goodfellas", "Gladiator"],
+            type: "MCQs",
+            correctAnswer: "A Few Good Men"
+        }
+    ],
+    fashion: [
+        {
+            question: "Which designer is known for the 'Little Black Dress'?",
+            choices: ["Coco Chanel", "Christian Dior", "Donatella Versace", "Giorgio Armani"],
+            type: "MCQs",
+            correctAnswer: "Coco Chanel"
+        },
+        {
+            question: "Which city is known as the fashion capital of the world?",
+            choices: ["Paris", "New York", "Milan", "London"],
+            type: "MCQs",
+            correctAnswer: "Paris"
+        },
+        {
+            question: "What is the signature pattern of Burberry?",
+            choices: ["Polka dots", "Paisley", "Houndstooth", "Check"],
+            type: "MCQs",
+            correctAnswer: "Check"
+        },
+        {
+            question: "Which designer founded the brand 'Louis Vuitton'?",
+            choices: ["Louis Vuitton", "Gucci", "Yves Saint Laurent", "Hermès"],
+            type: "MCQs",
+            correctAnswer: "Louis Vuitton"
+        },
+        {
+            question: "What type of clothing is Manolo Blahnik famous for?",
+            choices: ["Handbags", "Hats", "Shoes", "Dresses"],
+            type: "MCQs",
+            correctAnswer: "Shoes"
+        },
+        {
+            question: "Which fashion house is known for its Medusa logo?",
+            choices: ["Versace", "Dolce & Gabbana", "Prada", "Balenciaga"],
+            type: "MCQs",
+            correctAnswer: "Versace"
+        },
+        {
+            question: "Who is the creative director of Chanel as of 2023?",
+            choices: ["Karl Lagerfeld", "Virginie Viard", "Alessandro Michele", "Hedi Slimane"],
+            type: "MCQs",
+            correctAnswer: "Virginie Viard"
+        },
+        {
+            question: "Which brand is known for its red-soled shoes?",
+            choices: ["Jimmy Choo", "Christian Louboutin", "Stuart Weitzman", "Salvatore Ferragamo"],
+            type: "MCQs",
+            correctAnswer: "Christian Louboutin"
+        },
+        {
+            question: "Which model famously fell on the runway wearing Vivienne Westwood's platform heels?",
+            choices: ["Naomi Campbell", "Cindy Crawford", "Kate Moss", "Linda Evangelista"],
+            type: "MCQs",
+            correctAnswer: "Naomi Campbell"
+        },
+        {
+            question: "Which fashion item is Yves Saint Laurent credited with popularizing for women?",
+            choices: ["Mini skirt", "Tuxedo jacket", "Platform shoes", "Pencil skirt"],
+            type: "MCQs",
+            correctAnswer: "Tuxedo jacket"
+        }
+    ]    
 };
