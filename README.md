@@ -1,4 +1,9 @@
 # Quizoo
+![](https://badge.creative-minds.studio/Vishal-Pattar/Quizoo/views)
+![](https://badge.creative-minds.studio/Vishal-Pattar/Quizoo/clones)
+![](https://badge.creative-minds.studio/Vishal-Pattar/Quizoo/forks)
+![](https://badge.creative-minds.studio/Vishal-Pattar/Quizoo/downloads)
+![](https://badge.creative-minds.studio/Vishal-Pattar/Quizoo/commits)  
 
 Quizoo is a web-based quiz application built with modern web technologies. It allows users to take quizzes on various topics and get instant feedback.
 
